@@ -1,0 +1,31 @@
+.headerBox {
+  padding-bottom: 7rem;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.mainName {
+  font-size: 3rem;
+}
+
+.specialist {
+  color: rgb(204, 120, 47);
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.headerContent {
+  display: flex;
+  font-weight: 500;
+  height: 40%;
+}
+
+.profileImage {
+  width: 30%;
+  height: 100%;
+  margin-right: 2rem;
+}
+
+.headerContentTitle {
+  color: rgb(204, 120, 47);
+}

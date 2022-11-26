@@ -1,0 +1,28 @@
+.introduceBox {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.introcueTitle {
+  color: rgb(204, 120, 47);
+  margin-bottom: 3rem;
+}
+
+.blankBox {
+  border: 1px solid rgb(237, 237, 237);
+  background-color: rgb(237, 237, 237);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: rgb(204, 120, 47);
+}
+
+.list {
+  margin-top: 3rem;
+}
+
+.list li {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
