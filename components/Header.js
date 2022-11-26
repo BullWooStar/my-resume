@@ -1,6 +1,7 @@
 import styles from "../styles/Header.module.css";
 import profile from "../public/profile.jpeg";
 import Image from "next/image";
+import PdfDownLoadButton from "../UI&Layout/PdfDownLoadButton";
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
         <h1 className={styles.mainName}>
           탄탄한 개발 토양을 다지는 개발자, 최효근
         </h1>
+        <PdfDownLoadButton />
       </div>
 
       <div className={styles.fadeInBox}>
