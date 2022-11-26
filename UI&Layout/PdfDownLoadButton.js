@@ -1,7 +1,7 @@
 function PdfDownLoadButton() {
   return (
     <>
-      <a href="../public/최효근__이력서.pdf" download>
+      <a href="../public/static/resume.pdf" download>
         PDF 다운로드
       </a>
     </>
