@@ -6,7 +6,6 @@ import Experience from "../components/Experience";
 import PersonalExperience from "../components/PersonalExperience";
 import SkillAndEducation from "../components/SkillAndEducation";
 import ToTheTopButton from "../UI&Layout/ToTheTopButton";
-import { FadeInSection } from "../UI&Layout/FadeInSection";
 
 export default function Home() {
   return (
@@ -21,9 +20,8 @@ export default function Home() {
         <ToTheTopButton />
         <div className={styles.mainWrapper}>
           <Header />
-          <FadeInSection>
-            <Introduce />
-          </FadeInSection>
+
+          <Introduce />
 
           <Experience />
           <PersonalExperience />
