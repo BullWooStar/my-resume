@@ -1,4 +1,5 @@
 import styles from "../styles/Introduce.module.css";
+import FadeInSection from "../UI&Layout/FadeInSection";
 
 function Introduce() {
   return (
