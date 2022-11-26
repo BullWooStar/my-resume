@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Introduce from "../components/Introduce";
+import Experience from "../components/Experience";
 
 export default function Home() {
   return (
@@ -13,9 +14,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
+        <div className={styles.mainWrapper}>
           <Header />
           <Introduce />
+          <Experience />
         </div>
       </main>
     </div>

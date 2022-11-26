@@ -4,14 +4,15 @@
 }
 
 .mainName {
-  width: 97%;
+  width: 720px;
   animation: typing 1.8s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 3.5em;
+  font-size: 2.5rem;
   font-weight: 900;
+  word-spacing: -5px;
 }
 
 @keyframes typing {
@@ -53,7 +54,7 @@
 }
 
 .profileImage {
-  width: 30%;
+  width: 250px;
   height: 100%;
   margin-right: 2rem;
 }

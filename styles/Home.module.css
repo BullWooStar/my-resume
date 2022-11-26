@@ -1,8 +1,9 @@
 .main {
-  min-height: 100vh;
-  min-width: 50vh;
-  width: 100%;
   padding: 3rem 0;
   display: flex;
   justify-content: center;
+}
+
+.mainWrapper {
+  width: 50%;
 }

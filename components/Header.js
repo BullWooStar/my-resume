@@ -5,9 +5,12 @@ import Image from "next/image";
 function Header() {
   return (
     <header className={styles.headerBox}>
-      <h1 className={styles.mainName}>
-        탄탄한 개발 토양을 다지는 개발자, 최효근
-      </h1>
+      <div className={styles.mainNameContainer}>
+        <h1 className={styles.mainName}>
+          탄탄한 개발 토양을 다지는 개발자, 최효근
+        </h1>
+      </div>
+
       <div className={styles.fadeInBox}>
         <p className={`${styles.specialist}`}>Front-end Developer</p>
         <div className={styles.headerContent}>
@@ -20,7 +23,7 @@ function Header() {
             <div>
               <h2 className={styles.headerContentTitle}>Contact.</h2>
               <p>
-                Email.
+                Email.&nbsp;
                 <a href="mailto: ccatal66@gmail.com">ccatal66@gmail.com</a>
               </p>
               <p className="themeColor">Phone. 010-8568-7793</p>
