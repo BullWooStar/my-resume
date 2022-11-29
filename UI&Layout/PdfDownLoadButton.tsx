@@ -4,7 +4,7 @@ function PdfDownLoadButton() {
   return (
     <button className={styles.button}>
       <a
-        href="/static/resume.pdf"
+        href="/static/[최효근] 이력서.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
