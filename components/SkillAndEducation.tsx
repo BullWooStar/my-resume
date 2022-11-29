@@ -7,7 +7,10 @@ function SkillAndEducation() {
       <FadeInSection>
         <div className={styles.contentBox}>
           <h1 className={styles.title}>Skill.</h1>
-          <p>Frontend: JavaScript, TypeScript, React.js, Vue.js, HTML/CSS</p>
+          <p>
+            Frontend: JavaScript, TypeScript, React.js, Vue.js, HTML/CSS,
+            Next.js
+          </p>
         </div>
       </FadeInSection>
       <FadeInSection>

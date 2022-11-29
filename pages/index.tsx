@@ -6,6 +6,7 @@ import Experience from "../components/Experience";
 import PersonalExperience from "../components/PersonalExperience";
 import SkillAndEducation from "../components/SkillAndEducation";
 import ToTheTopButton from "../UI&Layout/ToTheTopButton";
+import PdfDownLoadButton from "../UI&Layout/PdfDownLoadButton";
 
 export default function Home() {
   return (
@@ -21,7 +22,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <ToTheTopButton />
+        <div className={styles.buttonWrapper}>
+          <PdfDownLoadButton />
+          <ToTheTopButton />
+        </div>
+
         <div className={styles.mainWrapper}>
           <Header />
           <Introduce />

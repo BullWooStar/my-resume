@@ -7,3 +7,10 @@
 .mainWrapper {
   width: 50%;
 }
+
+.buttonWrapper {
+  position: fixed;
+  bottom: 10%;
+  right: 8%;
+  display: flex;
+}
