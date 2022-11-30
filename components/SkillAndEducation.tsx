@@ -24,7 +24,7 @@ function SkillAndEducation() {
           <div className={styles.educationContent}>
             <h2>경기대학교 졸업</h2>
             <p>2012.03~2018.06</p>
-            <p>- 경기대학교 서울캠퍼스 영어영문학과/국어국문학과 석사</p>
+            <p>- 경기대학교 서울캠퍼스 영어영문학과/국어국문학과 학사</p>
             <p>- TOEIC : 850</p>
           </div>
         </div>
