@@ -5,11 +5,25 @@ import Image from "next/image";
 function Header() {
   return (
     <header className={styles.headerBox}>
-      <div className={styles.mainNameContainer}>
-        <h1 className={styles.mainName}>
-          탄탄한 개발 토양을 다지는 개발자, 최효근
-        </h1>
-      </div>
+      <h1 className={styles.mainName}>
+        <span>탄탄</span>
+        <span>한</span>
+        &nbsp;
+        <span>개발</span>
+        &nbsp;
+        <span>토양</span>
+        <span>을</span>
+        &nbsp;
+        <span>다지</span>
+        <span>는</span>
+        &nbsp;
+        <span>개발</span>
+        <span>자</span>
+        <span>,</span>
+        &nbsp;
+        <span>최효</span>
+        <span>근</span>
+      </h1>
 
       <div className={styles.fadeInBox}>
         <p className={`${styles.specialist}`}>Front-end Developer</p>
