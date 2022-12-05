@@ -8,6 +8,85 @@ function Experience() {
         <h1 className={styles.experienceTitle}>Experience.</h1>
         <div>
           <h2>
+            <a target="_blank" href="https://idiots.band/" rel="noreferrer">
+              밴드 이디어츠 홈페이지&nbsp;
+            </a>
+            유지 및 보수
+          </h2>
+          <p>
+            배포페이지 :&nbsp;
+            <a target="_blank" href="https://idiots.band/" rel="noreferrer">
+              https://idiots.band/
+            </a>
+          </p>
+          <p>
+            GitHub :&nbsp;
+            <a
+              target="_blank"
+              href="https://github.com/BullWooStar/idiots"
+              rel="noreferrer"
+            >
+              https://github.com/BullWooStar/idiots
+            </a>
+          </p>
+          <div className={styles.contentBox}>
+            <h3>Description.</h3>
+            <p>
+              기존에 운영되고 있던 밴드 이디어츠의 홈페이지 유지 보수에
+              참여하였습니다. 홈페이지를 유지하였고 새로운 기능등을
+              추가하였습니다.
+            </p>
+          </div>
+          <div className={styles.contentBox}>
+            <h3>What did i do.</h3>
+            <p>[프로젝트 경험]</p>
+            <ul>
+              <li>
+                기존에 운영되고 있던 밴드 이디어츠의 홈페이지 유지보수에
+                참여하였습니다. Contact 기능 파트를 만들었고 방명록 기능을
+                개발중에 있습니다.
+              </li>
+              <li>
+                처음으로 기존에 실제로 운영되고 있었던 프로젝트에
+                투입되었습니다. 새로운 스택을 익히고 이미 만들어진 코드들을
+                살펴보면서 실무에 투입 되었을때 겪게될 유지보수에 대한 감각을
+                익혔습니다.
+              </li>
+              <li>
+                기존의 서비스의 단순 유지보수가 아닌 홈페이지에 어떠한 것들을
+                추가하면 좋을지에 대해 고민을 많이 하였습니다.
+              </li>
+            </ul>
+            <p>[기술적 경험]</p>
+            <ul>
+              <li>
+                기존의 프로젝트가 Remix.js로 만들어져서 프로젝트에 투입되기전
+                Remix.js를 익힐겸 todo api를 활용하여 Remix.js로 todo list를
+                만들어보았습니다. <br />
+                <a
+                  target="_blank"
+                  href="https://github.com/BullWooStar/remix-to-do.git"
+                  rel="noreferrer"
+                >
+                  https://github.com/BullWooStar/remix-to-do.git
+                </a>
+              </li>
+              <li>
+                loader로 데이터를 가져오고 form base 기반으로 action을 관리하는
+                Remix의 특성상 CRUD의 API를 모두 한곳에서 관리하여서
+                편리하였습니다.
+              </li>
+            </ul>
+          </div>
+          <div className={styles.contentBox}>
+            <h3>Tech Stack.</h3>
+            <p> React, TypeScript, Remix.js, Vercel</p>
+          </div>
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <div className={styles.experienceContent}>
+          <h2>
             <a target="_blank" href="https://lenssis.jp/" rel="noreferrer">
               IKO LENSSIS JAPAN 페이지&nbsp;
             </a>
